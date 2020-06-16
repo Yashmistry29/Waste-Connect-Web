@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Artifika&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+    <script type="text/javascript" src="js/signup.js"></script>
+  </head>
+  <body>
+    <a href="index.html"
+      ><img src="images/logo.png" alt="Website-logo" class="image"
+    /></a>
+    <div class="bgopacity">
+      <div class="modal-dialog text-center">
+        <div class="col-sm-9 main-section">
+          <div class="modal-content">
+            <div class="col-12 user-img">
+              <img src="images/face.png" />
+            </div>
+
+            <div class="col-12 form-input">
+              <form action="javascript:void(0);" id="regform">
+                <div class="form-group usr">
+                  <input
+                    type="UserName"
+                    id="uname"
+                    class="form-control"
+                    placeholder="Enter User Name* "
+                  />
+                </div>
+                <div class="form-group add">
+                  <input
+                    type="text"
+                    id="Address"
+                    class="form-control"
+                    placeholder="Enter Address"
+                  />
+                </div>
+                <div class="form-group name">
+                  <input
+                    type="text"
+                    id="mobile"
+                    class="form-control"
+                    placeholder="Enter Mobile No*."
+                    maxlength="10"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter Email*"
+                  />
+                </div>
+                <div class="form-group loc">
+                  <input
+                    type="password"
+                    id="password"
+                    class="form-control"
+                    placeholder="Enter Password*"
+                  />
+                </div>
+                <div class="form-group loc">
+                  <input
+                    type="password"
+                    id="repassword"
+                    class="form-control"
+                    placeholder="Re-Enter Password*"
+                  />
+                </div>
+                <!button type="submit" onclick="signup()" class="btn btn-success"><!/button>
+                <a
+                  href="login.html"
+                  onclick="signup()"
+                  class="btn signup"
+                  target="_blank"
+                  >Sign-Up</a
+                >
+                <p class="mandatory">*feilds are mandotory</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

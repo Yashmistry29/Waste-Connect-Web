@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" href="css/master.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Artifika&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
+    />
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <div>
+          <li class="header-logo"><b>Waste Connect</b></li>
+        </div>
+        <div class="outer">
+          <div class="block">
+            <li>Welcome,Admin</li>
+            <li><img src="images/face.png" alt="admin-photo" /></li>
+          </div>
+          <li>
+            <a href="login.html" class="btn" onclick="logout()">Logout</a>
+          </li>
+        </div>
+      </ul>
+    </header>
+    <div class="main-body">
+      <img src="images/website1.png" alt="logo" class="image" />
+    </div>
+    <div id="add-to">Remaining Request</div>
+  </body>
+</html>

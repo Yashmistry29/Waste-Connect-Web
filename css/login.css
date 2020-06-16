@@ -1,0 +1,122 @@
+.header-logo {
+  color: #000;
+  font-family: "Artifika", serif;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  text-shadow: 8px 5px 4px dimgray;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(circle, #c0c0c0, #a9a9a9);
+  background-size: cover;
+}
+
+.admin-text {
+  color: rgb(49, 42, 42);
+  font-family: "Montserrat", monospace;
+  font-size: xx-large;
+  margin-bottom: 75px;
+}
+
+.bgopacity {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.main-section {
+  margin-top: 30%;
+  margin-left: 75%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background-color: #434e5a;
+  opacity: 1;
+  padding: 0 18px;
+  border-radius: 10px;
+}
+
+.user-img img {
+  height: 120px;
+  width: 120px;
+}
+
+.user-img {
+  margin-top: -60px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group input {
+  height: 42px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding-left: 54px;
+}
+
+.form-group::before {
+  font-family: "Font Awesome\ 5 Free";
+  content: "\f1fa";
+  position: absolute;
+  font-size: 22px;
+  left: 28px;
+  padding-top: 4px;
+  color: #000000;
+}
+
+.login {
+  background-color: #00a859;
+  color: #fff;
+  font-size: 19px;
+  border-radius: 5px;
+  padding: 7px 14px;
+  border: 1px solid #daf1ff;
+}
+
+.login:hover {
+  background-color: #fff;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.forgot {
+  padding: 5px 0 25px;
+}
+
+.forgot a {
+  color: #daf1ff;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+.form-group:last-of-type::before {
+  content: "\f023";
+}
+
+.image {
+  z-index: 10;
+  width: 400px;
+  position: absolute;
+  float: left;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-left: 100px;
+}

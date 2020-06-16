@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Artifika&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+  </head>
+  <body>
+    <!-- <p class="header-logo"><b>Waste Connect</b></p> -->
+    <a href="index.html"
+      ><img src="images/logo.png" alt="Website-logo" class="image"
+    /></a>
+    <div class="bgopacity">
+      <div class="modal-dialog text-center">
+        <div class="col-sm-9 main-section">
+          <div class="admin-text">Admin Login</div>
+          <div class="modal-content">
+            <div class="col-12 user-img">
+              <img src="images/face.png" />
+            </div>
+
+            <div class="col-12 form-input">
+              <!-- <div class="admin-text">Admin Login</div> -->
+              <form action="" id="loginform">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter Email"
+                  />
+                </div>
+                <div class="form-group pwd">
+                  <input
+                    type="password"
+                    id="password"
+                    class="form-control"
+                    placeholder="Enter Password"
+                  />
+                </div>
+                <a class="btn login" target="_blank" onclick="signin()"
+                  >Login</a
+                >
+              </form>
+            </div>
+
+            <div class="col-12 forgot">
+              <a href="#">Forgot Password?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
